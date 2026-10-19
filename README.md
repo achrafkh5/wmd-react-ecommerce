@@ -1,11 +1,11 @@
 # DzTech Store - React & Redux E-Commerce Application
 
 ## Student Information
-* **Student Name:** [Your Name / Nom de l'étudiant]
+* **Student Name:** KHOUALDI Mohamed Achraf
 * **Institution:** École Nationale Supérieure de Technologies Avancées (ENSTA)
-* **Class:** SS / IA - 1st Semester 2026
-* **Module:** WAMD (Web and Mobile Development)
-* **Lab:** TD-TP 2: Create a React Application with Redux for State Management
+* **Class:** SS G2
+* **Module:** Web and Mobile Development
+* **Lab:** TP 2: Create a React Application with Redux for State Management
 
 ---
 
@@ -68,43 +68,3 @@ Global state is managed by the Redux store configured in `src/redux/store.js` us
   * `increaseQuantity(id)`: Increments the item quantity by 1.
   * `decreaseQuantity(id)`: Decrements the item quantity by 1 (or removes it if quantity reaches 0).
   * `clearCart()`: Empties all items from the shopping cart.
-
----
-
-## Implemented Features
-1. **Product Catalog**: Responsive grid displaying electronic gadgets with images, categories, ratings, descriptions, and prices.
-2. **Global Shopping Cart**: Real-time cart synchronization across independent components (`Navbar` badge and `Cart` panel).
-3. **Item Quantity Management**: Users can adjust quantities directly inside the cart drawer.
-4. **Category Filtering**: Filter products dynamically by All, Laptops, Audio, Smartphones, Wearables, Tablets, or Accessories.
-5. **Live Search**: Instant product search by name and description.
-6. **Reusable Functions**: Modular formatters for currency (DZD) and cart total calculations in `src/utils/formatters.js`.
-7. **Responsive Design**: Mobile, tablet, and desktop-friendly layout with smooth slide-over cart drawer.
-
----
-
-## Instructions for Running the Application
-
-### 1. Prerequisites
-* [Node.js](https://nodejs.org/) (version 18 or higher recommended)
-* `npm` package manager
-
-### 2. Installation
-Open your terminal in the project directory and install the required dependencies:
-```bash
-npm install
-```
-
-### 3. Start Development Server
-Run the local Vite development server:
-```bash
-npm run dev
-```
-
-### 4. Open in Browser
-Open the local URL displayed in the terminal (by default: `http://localhost:5173`).
-
-### 5. Build for Production (Optional)
-To test or build the optimized production bundle:
-```bash
-npm run build
-```
